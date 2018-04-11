@@ -12,5 +12,5 @@ usernamesByCategeory['du-small'] = ["dtiedemann", "prege", "aivener", "rallen", 
 usernamesByCategeory['calc-large'] = ["dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "rallen", "dcalabrese", "pwang", "yqu"];
 usernamesByCategeory['calc-small'] = ["dtiedemann", "kpeng", "prege", "aivener", "rallen", "pwang", "yqu"];
 usernamesByCategeory['tacalc-large'] = ["jkim", "kpeng", "dkang", "aivener", "asheeler", "agallagher", "rallen", "dcalabrese", "pwang", "yqu", "nsidawy"];
-usernamesByCategeory['tacalc-small'] = ["jkim", "aivener", "agallagher", "rallen", "dcalabrese", "pwang", "yqu", "nsidawy"];
+usernamesByCategeory['tacalc-small'] = ["aivener", "agallagher", "rallen", "dcalabrese", "pwang", "yqu", "nsidawy"];
 usernamesByCategeory['azure'] = ["prege", "agallagher", "dcalabrese", "pwang", "nsidawy"];
