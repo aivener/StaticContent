@@ -1,11 +1,11 @@
 var usernamesByCategeory = {};
 usernamesByCategeory['fi'] = ["jreagan", "kpeng", "dkang", "agallagher", "nmorrow", "dcalabrese", "nsidawy"];
-usernamesByCategeory['mrc'] = ["dtiedemann", "jkim", "prege", "aivener", "asheeler", "rallen", "yqu", "cstout", "afreix"];
-usernamesByCategeory['react-large'] = ["jreagan", "dtiedemann", "jkim", "kpeng", "dkang", "prege", "asheeler", "agallagher", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix"];
-usernamesByCategeory['react-small'] = ["jreagan", "jkim", "kpeng", "dkang", "agallagher", "nmorrow", "yqu", "afreix"];
-usernamesByCategeory['web-large'] = ["jreagan", "dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "agallagher", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix"];
-usernamesByCategeory['web-small'] = ["jreagan", "jkim", "dkang", "asheeler", "rallen", "yqu", "afreix"];
-usernamesByCategeory['results-large'] = ["dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "rallen", "dcalabrese", "pwang", "yqu", "afreix"];
+usernamesByCategeory['mrc'] = ["dtiedemann", "jkim", "prege", "aivener", "asheeler", "rallen", "yqu", "cstout", "afreix", "cwalters"];
+usernamesByCategeory['react-large'] = ["jreagan", "dtiedemann", "jkim", "kpeng", "dkang", "prege", "asheeler", "agallagher", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix", "cwalters"];
+usernamesByCategeory['react-small'] = ["jreagan", "jkim", "kpeng", "dkang", "agallagher", "nmorrow", "yqu", "afreix", "cwalters"];
+usernamesByCategeory['web-large'] = ["jreagan", "dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "agallagher", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix", "cwalters"];
+usernamesByCategeory['web-small'] = ["jreagan", "jkim", "dkang", "asheeler", "rallen", "yqu", "afreix", "cwalters"];
+usernamesByCategeory['results-large'] = ["dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "rallen", "dcalabrese", "pwang", "yqu", "afreix", "cwalters"];
 usernamesByCategeory['results-small'] = ["dtiedemann", "jkim", "kpeng", "prege", "asheeler", "rallen", "yqu", "afreix"];
 usernamesByCategeory['du-large'] = ["dtiedemann", "jkim", "kpeng", "prege", "aivener", "asheeler", "rallen", "dcalabrese", "yqu", "nsidawy"];
 usernamesByCategeory['du-small'] = ["dtiedemann", "prege", "aivener", "rallen", "yqu"];
