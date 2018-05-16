@@ -14,5 +14,3 @@ usernamesByCategeory['calc-small'] = ["dtiedemann", "kpeng", "prege", "aivener",
 usernamesByCategeory['tacalc-large'] = ["jkim", "kpeng", "dkang", "aivener", "asheeler", "agallagher", "rallen", "dcalabrese", "pwang", "yqu", "nsidawy", "cstout"];
 usernamesByCategeory['tacalc-small'] = ["aivener", "agallagher", "rallen", "dcalabrese", "pwang", "yqu", "nsidawy"];
 usernamesByCategeory['azure'] = ["prege", "agallagher", "dcalabrese", "pwang", "nsidawy"];
-
-loadReviewers();
