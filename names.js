@@ -1,8 +1,8 @@
 var usernamesByCategeory = {};
 usernamesByCategeory['fi'] = ["jreagan", "kpeng", "dkang", "agallagher", "nmorrow", "dcalabrese", "nsidawy", "nfoss"];
 usernamesByCategeory['mrc'] = ["dtiedemann", "jkim", "aivener", "asheeler", "rallen", "yqu", "cstout", "afreix", "cwalters", "lchen", "yyao", "dhashe"];
-usernamesByCategeory['react-large'] = ["jreagan", "jkim", "kpeng", "dkang", "prege", "asheeler", "agallagher", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix", "cwalters", "lchen", "yyao"];
-usernamesByCategeory['react-small'] = ["jreagan", "jkim", "kpeng", "dkang", "agallagher", "nmorrow", "yqu", "afreix", "cwalters"];
+usernamesByCategeory['react-large'] = ["jreagan", "jkim", "kpeng", "dkang", "prege", "asheeler", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix", "cwalters", "lchen", "yyao"];
+usernamesByCategeory['react-small'] = ["jreagan", "jkim", "kpeng", "dkang", "nmorrow", "yqu", "afreix", "cwalters"];
 usernamesByCategeory['web-large'] = ["jreagan", "dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "agallagher", "rallen", "nmorrow", "dcalabrese", "yqu", "afreix", "cwalters", "cstout", "lchen", "yyao"];
 usernamesByCategeory['web-small'] = ["jreagan", "dtiedemann", "jkim", "dkang", "asheeler", "rallen", "yqu", "afreix", "cwalters", "cstout", "lchen", "yyao"];
 usernamesByCategeory['results-large'] = ["dtiedemann", "jkim", "kpeng", "dkang", "prege", "aivener", "asheeler", "rallen", "dcalabrese", "pwang", "yqu", "afreix", "cwalters", "cstout", "lchen", "nfoss", "yyao"];
