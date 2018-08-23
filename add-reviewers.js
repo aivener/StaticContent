@@ -1,5 +1,3 @@
-var reviewerGroupName = 'results-large';
-
 function loadReviewers() {
 	var usernames = usernamesByCategeory[reviewerGroupName];
 	
