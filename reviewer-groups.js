@@ -1,3 +1,4 @@
+// Add a usernamesByGroup key along with usernames to create a group
 window.usernamesByGroup= {};
 window.usernamesByGroup['mci-propel'] = ["jmerali", "jkim", "kpeng", "rallen", "nmorrow", "hpark"];
 window.usernamesByGroup['mci-web'] = ["jreagan", "yqu", "afreix", "cwalters", "lchen", "fbalashov", "rstpierre", "samjones"];
