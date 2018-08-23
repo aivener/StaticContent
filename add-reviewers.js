@@ -1,7 +1,7 @@
 try
 {	
 	function loadReviewers() {
-		var usernames = usernamesByCategeory[window.reviewerGroupName];
+		var usernames = usernamesByGroup[window.reviewerGroupName];
 
 		var stashCurrentUsername = $('#current-user').attr('data-username');
 		usernames = usernames.filter(n => n !== stashCurrentUsername);
@@ -74,9 +74,9 @@ try
 					jq3.src = "http://bililite.com/inc/jquery.sendkeys.js";
 					jq3.onload = function(){
 						var usernamesFile = document.createElement('script');
-						usernamesFile.src = "https://rawgit.com/rallen090/StaticContent/master/names.js";
+						usernamesFile.src = "https://rawgit.com/rallen090/StaticContent/master/reviewer-groups.js";
 						usernamesFile.onload = function(){
-							if($ && $.fn.sendkeys && usernamesByCategeory){
+							if($ && $.fn.sendkeys && usernamesByGroup){
 								loadReviewers();
 							}
 							else{
