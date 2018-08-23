@@ -1,7 +1,7 @@
 try
 {	
 	function loadReviewers() {
-		var usernames = usernamesByGroup[window.reviewerGroupName];
+		var usernames = window.usernamesByGroup[window.reviewerGroupName];
 
 		var stashCurrentUsername = $('#current-user').attr('data-username');
 		usernames = usernames.filter(n => n !== stashCurrentUsername);
@@ -76,7 +76,7 @@ try
 						var usernamesFile = document.createElement('script');
 						usernamesFile.src = "https://rawgit.com/rallen090/StaticContent/master/reviewer-groups.js";
 						usernamesFile.onload = function(){
-							if($ && $.fn.sendkeys && usernamesByGroup){
+							if($ && $.fn.sendkeys && window.usernamesByGroup){
 								loadReviewers();
 							}
 							else{
