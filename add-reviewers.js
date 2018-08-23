@@ -1,7 +1,7 @@
 try
 {	
 	function loadReviewers() {
-		var usernames = usernamesByCategeory[reviewerGroupName];
+		var usernames = usernamesByCategeory[window.reviewerGroupName];
 
 		var stashCurrentUsername = $('#current-user').attr('data-username');
 		usernames = usernames.filter(n => n !== stashCurrentUsername);
