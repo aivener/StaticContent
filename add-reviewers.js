@@ -94,13 +94,21 @@ function loadDependencies(){
 		jQuery.noConflict();
 };
 
-if (typeof window.hasRunBefore === 'undefined') {
+try
+{
+	if (typeof window.hasRunBefore === 'undefined') {
 		window.clearNames = true;
 		window.hasRunBefore = true;
 		
 		loadDependencies();
+	}
+	else{
+		window.clearNames = false;
+		loadReviewers();
+	}
 }
-else{
-	window.clearNames = false;
-	loadReviewers();
+catch(ex)
+{
+	console.log(ex);
+	window.prompt("Failed to load default reviewers :(\n\n Please reach out to Ryan Allen and provide the relevant error content shown below.", ex);
 }
