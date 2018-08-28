@@ -77,7 +77,7 @@ try
 						usernamesFile.src = "https://rawgit.com/rallen090/StaticContent/master/reviewer-groups.js";
 						usernamesFile.onload = function(){
 							if($ && $.fn.sendkeys && window.usernamesByGroup){
-								loadReviewers();
+								setTimeout(loadReviewers, 500);
 							}
 							else{
 								console.log('Not yet loaded');
@@ -110,5 +110,5 @@ try
 catch(ex)
 {
 	console.log(ex);
-	window.prompt("Failed to load default reviewers :(\n\n Please reach out to Ryan Allen and provide the relevant error content shown below.", ex);
+	window.prompt("Failed to load default reviewers :(\n\n Please reach out to Ryan Allen and provide the relevant error content shown below.", ex + " - " + ex.stack);
 }
