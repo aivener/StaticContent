@@ -68,10 +68,10 @@ try
 			jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js";
 			jq.onload = function() {
 				var jq2 = document.createElement('script');
-				jq2.src = "http://bililite.com/inc/bililiteRange.js";
+				jq2.src = "https://raw.githubusercontent.com/dwachss/bililiteRange/master/bililiteRange.js";
 				jq2.onload = function () {
 					var jq3 = document.createElement('script');
-					jq3.src = "http://bililite.com/inc/jquery.sendkeys.js";
+					jq3.src = "https://raw.githubusercontent.com/dwachss/bililiteRange/master/jquery.sendkeys.js";
 					jq3.onload = function(){
 						var usernamesFile = document.createElement('script');
 						usernamesFile.src = "https://rawgit.com/rallen090/StaticContent/master/reviewer-groups.js";
