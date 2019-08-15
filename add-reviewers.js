@@ -74,7 +74,7 @@ try
 					jq3.src = "https://cdn.jsdelivr.net/gh/dwachss/bililiteRange@master/jquery.sendkeys.js";
 					jq3.onload = function(){
 						var usernamesFile = document.createElement('script');
-						usernamesFile.src = "https://rawgit.com/rallen090/StaticContent/master/reviewer-groups.js";
+						usernamesFile.src = "https://cdn.jsdelivr.net/gh/aivener/StaticContent@master/reviewer-groups.js";
 						usernamesFile.onload = function(){
 							if($ && $.fn.sendkeys && window.usernamesByGroup){
 								setTimeout(loadReviewers, 500);
