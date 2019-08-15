@@ -110,5 +110,5 @@ try
 catch(ex)
 {
 	console.log(ex);
-	window.prompt("Failed to load default reviewers :(\n\n Please reach out to Ryan Allen and provide the relevant error content shown below.", ex + " - " + ex.stack);
+	window.prompt("Failed to load default reviewers :(\n\n Please reach out to Allie Ivener and provide the relevant error content shown below.", ex + " - " + ex.stack);
 }
