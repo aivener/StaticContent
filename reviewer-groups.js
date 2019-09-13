@@ -4,4 +4,4 @@ window.usernamesByGroup['mci-propel'] = ["jmerali", "jkim", "kpeng", "rallen", "
 window.usernamesByGroup['mci-mdp'] = [ "agallagher", "pwang", "nsidawy", "jmalin", "kchin"];
 window.usernamesByGroup['mci-gemini'] = [ "aivener", "jreagan", "cstout", "fbalashov", "rstpierre", "yyao", "yqu", "tgieseking", "apeltz", "arapoport", "doconnell", "bzelditch"];
 window.usernamesByGroup['mci-hudson'] = [ "aivener", "fbalashov", "rstpierre", "yyao", "apeltz", "bzelditch"];
-window.usernamesByGroup['mci-potomac'] = [ "jreagan", "cstout", "yqu", "tgieseking", "arapoport", "doconnell""];
+window.usernamesByGroup['mci-potomac'] = [ "jreagan", "cstout", "yqu", "tgieseking", "arapoport", "doconnell"];
